@@ -1,0 +1,7 @@
+fun countOdds(low: Int, high: Int): Int {
+    return ((high+1)/2) - (low/2)
+}
+
+fun main() {
+    println(countOdds(7, 18))
+}
